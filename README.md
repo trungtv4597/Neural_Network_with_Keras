@@ -25,5 +25,6 @@
  Perceptron implementes Linear model in three steps. First, it starts with a randomly equation. Then, what our algorithm will do is keeping adjusting the weights and bias of linear model unitl it comes up with a optimized line that classifies out data with minimal error. Finally, we use the trained model to predict new unlabelled data.
  
 ## 5/ Perceptron
- Detail and information is in markdown shells of Jupyter notebook IPython source code.
+ Perceptron is the most basic form of a NN that inspiration from the brain. The brain is a complex information processing device with incredible pattern recognition abilities. It's able to freely process input from it's surrounding environment, categorize them and generate some kind of output. Similarly, Perceptron is a basic processing element that also receives input, processes it and generates output based on the predictive model.
+ Detail and information is in markdown shells of Jupyter notebook IPython source code, name: pure_python_perceptron.ipynb .
  
