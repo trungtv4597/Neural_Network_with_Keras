@@ -6,8 +6,8 @@ Neural Network are inspired by biogical neural network. The process of training 
 
 ## 2/ Machine Learning (ML)
 ### 2.1/Introduction
-ML is the concept of building computational systems that learn over time based on experience without explicitly programming or hard coded instructions. ML uses a variety of algorithms to describe and analyze data, learn from it to improve then predict accurately, useful outputs.
-ML has two most popular techniques: Supervised Learning and Unsupervised Learning. They are a guide to teach algorithm what conclusions it should come up with.
+"ML is the concept of building computational systems that learn over time based on experience without explicitly programming or hard coded instructions. ML uses a variety of algorithms to describe and analyze data, learn from it to improve then predict accurately, useful outputs.
+"ML has two most popular techniques: Supervised Learning and Unsupervised Learning. They are a guide to teach algorithm what conclusions it should come up with.
 ### 2.2/ Supervised vs Unsupervised
 Supervised Learning: it typically begins with a dataset that associated with Labelled features which define meaning of our data and find patterns that can be applied to an analytics process.
 Unsupervised Learning: Learner gets as tranining as large datasets with no labels and the task is to process that data to find similarities and different in the information.
@@ -28,5 +28,5 @@ Perceptron implementes Linear model in three steps. First, it starts with a rand
 Deep Learning is a ML technique that use a NN for prediction.
 ### 5.1/ Perceptron
 Perceptron is the most basic form of a NN that inspiration from the brain. The brain is a complex information processing device with incredible pattern recognition abilities. It's able to freely process input from it's surrounding environment, categorize them and generate some kind of output. Similarly, Perceptron is a basic processing element that also receives input, processes it and generates output based on the predictive model.
-Perceptron
+Perceptron architecture includes three layer: Input layer recives inputs, then Hidden layer uses a model (may be Linear model) to process inputs and the last layer, output layer, uses activation function (step function is the simples) to define outputs.
 More detail and information is in markdown shells of Jupyter notebook IPython source code, name: pure_python_perceptron.ipynb .
