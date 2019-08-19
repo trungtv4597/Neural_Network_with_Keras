@@ -1,11 +1,12 @@
-# Perceptron
-Using pure Python and Keras framework to build a single layer perceptron that have the ability to classify two dicrete classes.
+Source: https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course/
+
+Practicing artificial neural network with Python and Keras framework.
 
 ## 1/ Introduction (NN)
-Neural Network are inspired by biogical neural network. The process of training to receive inputs in the form of input nodes and tranfer the appropriate output is called Perceptron. And we need a multi-layered perceptron to build a NN.
+Artificial neural network are inspired by the brain. The brain is a complex information processing device with incredible pattern recognition abilities. It's able to freely process input from its surrounding environment, categorize them and generate some kind of output. A neural network which is based on a collection of connected nodes processes the information by transmitting it through all over nodes and calculate its values at every nodes.
 
 ## 2/ Machine Learning (ML)
-### 2.1/Introduction
+### 2.1/Concept
 ML is the concept of building computational systems that learn over time based on experience without explicitly programming or hard coded instructions. ML uses a variety of algorithms to describe and analyze data, learn from it to improve then predict accurately, useful outputs.
 
 ML has two most popular techniques: Supervised Learning and Unsupervised Learning. They are a guide to teach algorithm what conclusions it should come up with.
@@ -16,11 +17,11 @@ Unsupervised Learning: Learner gets as tranining as large datasets with no label
   
 ## 3/ Supervised Learning Algorithms
 ### 3.1/ Linear Regression
-Linear regression allows to make predictions based on linearly arranged datasets. It's model is relationship of the dependent variable (response varibale) and the independent variable (explanation variable). The dependent variable is the output we want to predict based on the independent variable.
+Linear regression allows to make predictions based on linearly arranged datasets. Its model is relationship of the dependent variable (response varibale) and the independent variable (explanation variable). The dependent variable is the output we want to predict based on the independent variable.
 
-Example: Predicting price of house based on it's size. So the size is independent and the price is dependent on the size.
+Example: Predicting price of house based on its size. So the size is independent and the price is dependent on the size.
 ### 3.2/ Classification
-Classification allows to classify data among discrete classes datasets. It's model calculates the likelihood of something that belongs to some class.
+Classification allows to classify data among discrete classes datasets. Its model calculates the likelihood of something that belongs to some class.
 
 Example: Considering two attribates: Blood sugar levels and Age to predict whether of not a person is likely to become diabetic. First thing, we need to represent datasets of diabet and heathy people in a 2-D Cartesian coordinates with the hozirontal axis is Age and the vertical is Blood sugar levels. The next step, we need a model to classify our datasets and the simplest way to do that is drawing a line to separate it. This line is represented by a linear equation.
  
@@ -32,8 +33,7 @@ Perceptron implementes Linear model in three steps. First, it starts with a rand
 ## 5/ Deep Learning
 Deep Learning is a ML technique that use a NN for prediction.
 ### 5.1/ Perceptron
-Perceptron is the most basic form of a NN that inspiration from the brain. The brain is a complex information processing device with incredible pattern recognition abilities. It's able to freely process input from it's surrounding environment, categorize them and generate some kind of output. Similarly, Perceptron is a basic processing element that also receives input, processes it and generates output based on the predictive model.
+Perceptron is the most basic form of a NN or an algorithm for supervised learning of binary classifiers. It can predict whether or not an output.
 
-Perceptron architecture includes three layer: Input layer recives inputs, then Hidden layer uses a model (may be Linear model) to process inputs and the last layer, output layer, uses activation function (step function is the simples) to define outputs.
 
-More detail and information is in markdown shells of Jupyter notebook IPython source code, name: pure_python_perceptron.ipynb .
+
